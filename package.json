@@ -1,0 +1,23 @@
+{
+  "name": "vue-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config config/webpack.config.dev.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "2.5.17",
+    "vue-property-decorator": "7.2.0"
+  },
+  "devDependencies": {
+    "ts-loader": "5.2.1",
+    "typescript": "3.1.2",
+    "vue-loader": "15.4.2",
+    "vue-template-compiler": "2.5.17",
+    "webpack": "4.20.2",
+    "webpack-cli": "3.1.2"
+  }
+}
